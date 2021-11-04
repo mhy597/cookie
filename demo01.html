@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+
+        #divMenu ul {
+            list-style: none;
+        }
+
+        #divMenu ul li {
+            padding: 5px 0px;
+        }
+
+        #divMenu ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #0094ff;
+        }
+
+        #divMenu ul li a:hover {
+            color: #ff6a00;
+        }
+
+        .myCalendar {
+            border-collapse: collapse;
+        }
+
+        .myCalendar caption {
+            font-size: 22px;
+        }
+
+        .myCalendar th {
+            background-color: #eeeeff;
+        }
+
+        .myCalendar th,
+        .myCalendar td {
+            border: 1px solid #9999ee;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .myLightgray {
+            color: lightgray;
+        }
+
+        /*灰色*/
+        .arrow {
+            font-size: 28px;
+            font-family: Webdings;
+        }
+
+        /*左右箭头(3,4)*/
+    </style>
+   
+</head>
+
+<body>
+    <div id="divMenu">
+        <ul>
+            <li><a href="">1、X年是不是闰年</a></li>
+            <li><a href="">2、X年X月的最大天数</a></li>
+            <li><a href="">3、X年X月X日是这一年的第几天</a></li>
+            <li><a href="">4、X年到Y年之间的天数和（不含Y年）</a></li>
+            <li><a href="">5、X年X月X日是星期几</a></li>
+            <li><a href="">6、打印X年X月的月历</a></li>
+            <li><a href="">7、X年X月X日到Y年Y月Y日之间的天数</a></li>
+        </ul>
+    </div>
+    <div id="divResult">
+        <span class="arrow">3</span><br />
+        <span style="font-size:28px; font-family:Webdings;">4</span>
+    </div>
+</body>
+
+</html>
